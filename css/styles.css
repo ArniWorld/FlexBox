@@ -1,12 +1,15 @@
-.padre{
+.padre, .padre2, .padre3{
     width: 550px;
     border: 2px solid blue;
     height: 200px;
     display: flex;
+    margin-bottom: 40px;
+}
+
+.padre{
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-bottom: 40px;
 }
 
 .hijo{
@@ -33,12 +36,20 @@
 
 }
 
-.padre2{
-    width: 550px;
-    border: 2px solid blue;
-    height: 200px;
-    display: flex;
+.padre2{ 
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+.tareas{
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+    text-decoration: underline;
+}
+
+.padre3{
+    align-items: center;
+    justify-content: center;
 }
