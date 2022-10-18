@@ -1,4 +1,4 @@
-.padre, .padre2, .padre3, .padre4{
+.padre, .padre2, .padre3, .padre4, .padre5{
     width: 550px;
     border: 2px solid blue;
     height: 200px;
@@ -57,5 +57,11 @@
 .padre4{
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.padre5{
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
 }
